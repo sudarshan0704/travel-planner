@@ -1,4 +1,40 @@
 
 body{
-    background-color: antiquewhite;
+    background-color:#879df3;
 }
+.navbar
+{
+    position: absolute;
+    top: 10px;
+    left:650px;
+    width: 850px;
+    background-color:transparent;
+
+    
+
+}
+.menus{
+    width: 850px;
+ background-color: transparent;
+}
+.menus>button:hover
+{
+    color: brown;
+}
+header
+{
+    background: linear-gradient( 90deg,orange,red,pink,purple);
+    font-size: 80px;
+    width: 600px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    text-align: top;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-clip: text;
+    color: transparent;
+    padding-top: 2px;
+    
+}
+
