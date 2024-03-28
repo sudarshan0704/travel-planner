@@ -72,9 +72,10 @@
         font-style: italic;
         border-radius: 20px;
        }
-       .moreinfo>button
+       .moreinfo>a>button
        {
         border-radius: 30px;
+        background-color: yellow;
        }
        .info
        {
@@ -115,7 +116,7 @@ font-size: larger;
     }
     body
     {
-  background-color:rgb(216, 206, 206);
+  background-color:rgb(255, 255, 255);
 
     } 
     .history1
@@ -176,7 +177,339 @@ font-size: larger;
     color: rgb(0, 0, 0);
     font-size: 25px;
 }
+.others
 
+{
+    position: absolute;
+    background-color:rgb(255, 251, 251);
+    width: 400px;
+    height: 2600px;
+    top: 50px;
+    left: 1070px;
+    border-radius: 30px;
+    /* border-top: 7px solid red; */
+    margin-right: 40px;
+}
+.spot
+{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 70px;
+    left: 25px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card img {
+ 
+ object-fit: cover;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 5px solid rgb(205, 213, 194);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.spot2
+{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 350px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot3
+{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 630px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot4
+{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 910px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot5{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 1190px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot6{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 1470px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot7{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 1750px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot8{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 2030px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.spot9{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    background-color:transparent;
+    top: 2310px;
+    left: 20px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+.moreplace
+{
+    width: 1000px;
+    height: 200px;
+    background-color: transparent;
+    position: absolute;
+    top: 2370px;
+    left: 50px;
+    border-radius: 30px;
+}
+.morere{
+position: absolute;
+
+width: 800px;
+height: 100px;
+top: 20px;
+left: 150px;
+border-radius: 50px;
+text-align: center;
+
+}
+.morere>h3
+
+{
+  padding-top: 0px;
+  font-weight: 900;
+  color: #060200;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-size: 40px;
+  font-display: initial;
+  text-align: center;
+}
+.morere>h3>b
+
+{
+  font-weight: 900;
+  color: #ff4000;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-size: 50px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.b1
+{position: absolute;
+  top: 150px;
+  left: 500px;
+}
+.b1>button
+{
+  background-color: yellow;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.review
+{
+  width: 100%;
+  height: 35%;
+  background-color: #131b31;
+  position: absolute;
+  top: 320%;
+  left: 0px;
+}
+.rehead
+{
+  top: 20px;
+  left: 10px;
+  position: absolute;
+  color: white;
+}
+.rehead>b{
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.person1
+{
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.profile
+{
+  top: 20px;
+  left: 10px;
+  position: absolute;
+  background-color: #333;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 3px solid black;
+}
+.profile>img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name
+{
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  /* background-color:rgb(248, 240, 240); */
+  
+}
+.name>b{
+  color: #1410f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.opinion
+{
+  position: absolute;
+  top: 70px;
+  background-color: transparent;
+  width: 290px;
+  height: 100px;
+  padding-left: 10px;
+ 
+}
+.opinion>p{
+  font-family: 'Times New Roman', Times, serif;
+  color: #131b31;
+}
+.person2
+{
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  top: 25%;
+  left: 27%;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.person3
+{
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  top: 25%;
+  left: 51%;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.person4
+{
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
 
     </style>
 </head>
@@ -210,6 +543,146 @@ font-size: larger;
                             <div class="history5">
                                 <div class="content"> <div class="place"><h3><b>RANGANATHASWAMY-TEMPLE</h3></div> </div>
                                 <div class="image"> <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" width="380px" height="400px"></div>
+                            </div>
+
+<div class="others">
+        <div class="spot">
+            <div class="card">
+                <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                <div class="card__content">
+                  <p class="card__title">Card Title</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+              </div>
+              
+            </div>
+
+    
+
+            <div class="spot2">
+                <div class="card">
+                    <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                    <div class="card__content">
+                      <p class="card__title">Card Title</p>
+                      <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <div class="spot3">
+                    <div class="card">
+                        <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                        <div class="card__content">
+                          <p class="card__title">Card Title</p>
+                          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+
+                    <div class="spot4">
+                        <div class="card">
+                            <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                            <div class="card__content">
+                              <p class="card__title">Card Title</p>
+                              <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            </div>
+                          </div>
+                          
+                        </div>
+
+                        <div class="spot5">
+                            <div class="card">
+                                <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                                <div class="card__content">
+                                  <p class="card__title">Card Title</p>
+                                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                            <div class="spot6">
+                                <div class="card">
+                                    <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                                    <div class="card__content">
+                                      <p class="card__title">Card Title</p>
+                                      <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                     </div>
+                                  </div>
+                                  
+                                </div>
+
+                                <div class="spot7">
+                                    <div class="card">
+                                        <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                                        <div class="card__content">
+                                          <p class="card__title">Card Title</p>
+                                          <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+
+                                    <div class="spot8">
+                                        <div class="card">
+                                            <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                                            <div class="card__content">
+                                              <p class="card__title">Card Title</p>
+                                              <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                            </div>
+                                          </div>
+                                          
+                                        </div>
+                                        <div class="spot9">
+                                            <div class="card">
+                                                <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" alt="" height="180" width="300">
+                                                <div class="card__content">
+                                                  <p class="card__title">Card Title</p>
+                                                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                                </div>
+                                              </div>
+                                              
+                                            </div>
+</div>
+
+<div class="moreplace">
+<div class="morere"><h3>Discover More With <b>Wanderlust Way</b></h3></div>
+<div class="b1"><button>More</button></div>
+
+</div>
+
+<div class="review">
+  <div class="rehead"><b> TOP REVIEWS</b></div>
+  
+  <div class="person1">
+    <div class="profile"><img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\profilepic.png" alt="" width="60" height="60"></div>
+    <div class="name"><b>HARDIK PANDYA</b></div>
+    <div class="opinion"> <p>A very amazing trip with wanderlust.Really i give  5 star  for theire service.I recommend wonderlust for everyone for their amazing trip</p></div>
+  </div>
+
+
+  <div class="person2">
+    <div class="profile"><img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\profilepic.png" alt="" width="60" height="60"></div>
+    <div class="name"><b>HARDIK PANDYA</b></div>
+    <div class="opinion"> <p>A very amazing trip with wanderlust.Really i give  5 star  for theire service.I recommend wonderlust for everyone for their amazing trip</p></div>
+  </div>
+
+
+  <div class="person3">
+    <div class="profile"><img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\profilepic.png" alt="" width="60" height="60"></div>
+    <div class="name"><b>HARDIK PANDYA</b></div>
+    <div class="opinion"> <p>A very amazing trip with wanderlust.Really i give  5 star  for theire service.I recommend wonderlust for everyone for their amazing trip</p></div>
+  </div>
+
+  <div class="person4">
+    <div class="profile"><img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\profilepic.png" alt="" width="60" height="60"></div>
+    <div class="name"><b>HARDIK PANDYA</b></div>
+    <div class="opinion"> <p>A very amazing trip with wanderlust.Really i give  5 star  for theire service.I recommend wonderlust for everyone for their amazing trip</p></div>
+  </div>
+
+</div>
 </body>
 </html>
