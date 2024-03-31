@@ -7,7 +7,7 @@
     <style>
         .history
         {
-            background-color:rgb(253, 247, 247);
+          background-color:rgb(237, 237, 236);
             width: 950px;
             height: 400px;
             margin-left: 50px;
@@ -75,7 +75,7 @@
        .moreinfo>a>button
        {
         border-radius: 30px;
-        background-color: yellow;
+        background-color: rgb(187, 168, 139);
        }
        .info
        {
@@ -99,23 +99,29 @@ font-size: larger;
         {
             position: absolute;
             left: 20%;
-            background:linear-gradient(rgb(241, 249, 0),brown);
-            background-clip: text;
-    color: transparent;
-    top: -20px;
+            top: 40px;
+           background-color:transparent;
+            /* background-clip: text; */
+    /* color: transparent; */
+    top: 40px;
     width: 900px;
-    height: 200px;
+    height: 100px;
+
  
         }
         .head>h3{
-            font-size:40px;
-          
+            font-size:30px;
+          color: #000000;
        font-weight:900;
+       font-style: unset;
+       font-family: Arial, Helvetica, sans-serif;
+       font-family: 'Times New Roman', Times, serif;
+       
       
-       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     body
     {
+ 
   background-color:rgb(255, 255, 255);
 
     } 
@@ -181,7 +187,7 @@ font-size: larger;
 
 {
     position: absolute;
-    background-color:rgb(255, 251, 251);
+    background-color:transparent;
     width: 400px;
     height: 2600px;
     top: 50px;
@@ -220,7 +226,7 @@ font-size: larger;
  
  object-fit: cover;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  border: 5px solid rgb(205, 213, 194);
+ 
 }
 
 .card:hover {
@@ -510,10 +516,36 @@ text-align: center;
   background-color: #ffffff;
   border-radius: 30px;
 }
+.backimage
+{
+  z-index: -1;
+
+}
+
+.logo
+{
+top: 0px;
+left: 0px;
+position: absolute;
+background-color: transparent;
+
+}
+.logo>b
+
+{
+  font-weight: 900;
+  color: #ffb006;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  font-size: 55px;
+ font-family: Arial, Helvetica, sans-serif;
+}
 
     </style>
 </head>
 <body>
+<div class="logo"><b>Wanderlust Way</b></div>
     <div class="head">
         <h3>TOP PLACES IN KARNATAKA</h3>
 
@@ -684,5 +716,8 @@ text-align: center;
   </div>
 
 </div>
+<!-- <div class="backimage">
+  <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\mysore.jpeg" alt="" width="100%" height="1200%">
+</div> -->
 </body>
 </html>
