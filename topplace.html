@@ -89,6 +89,7 @@ padding-left: 10px;
 padding-right: 10px;
 font-family: 'Times New Roman', Times, serif;
 font-size: larger;
+font-style:italic;
         }
         .info>b
         {
@@ -113,21 +114,20 @@ font-size: larger;
             font-size:30px;
           color: #000000;
        font-weight:900;
-       font-style: unset;
+       font-style: italic;
        font-family: Arial, Helvetica, sans-serif;
-       font-family: 'Times New Roman', Times, serif;
+      
        
       
     }
     body
     {
- 
-  background-color:rgb(255, 255, 255);
-
-    } 
+      background-image: linear-gradient(135deg, rgba(159, 159, 159, 0.46) 0%, rgba(159, 159, 159, 0.46) 14.286%,rgba(165, 165, 165, 0.46) 14.286%, rgba(165, 165, 165, 0.46) 28.572%,rgba(171, 171, 171, 0.46) 28.572%, rgba(171, 171, 171, 0.46) 42.858%,rgba(178, 178, 178, 0.46) 42.858%, rgba(178, 178, 178, 0.46) 57.144%,rgba(184, 184, 184, 0.46) 57.144%, rgba(184, 184, 184, 0.46) 71.43%,rgba(190, 190, 190, 0.46) 71.43%, rgba(190, 190, 190, 0.46) 85.716%,rgba(196, 196, 196, 0.46) 85.716%, rgba(196, 196, 196, 0.46) 100.002%),linear-gradient(45deg, rgb(252, 252, 252) 0%, rgb(252, 252, 252) 14.286%,rgb(246, 246, 246) 14.286%, rgb(246, 246, 246) 28.572%,rgb(241, 241, 241) 28.572%, rgb(241, 241, 241) 42.858%,rgb(235, 235, 235) 42.858%, rgb(235, 235, 235) 57.144%,rgb(229, 229, 229) 57.144%, rgb(229, 229, 229) 71.43%,rgb(224, 224, 224) 71.43%, rgb(224, 224, 224) 85.716%,rgb(218, 218, 218) 85.716%, rgb(218, 218, 218) 100.002%);
+} 
     .history1
     {
         background-color: rgb(199, 203, 201);
+        background-color:rgb(237, 237, 236);
             width: 950px;
             height: 400px;
             margin-left: 50px;
@@ -139,6 +139,7 @@ font-size: larger;
 .history2
 {
     background-color: rgb(199, 203, 201);
+    background-color:rgb(237, 237, 236);
             width: 950px;
             height: 400px;
             margin-left: 50px;
@@ -150,6 +151,7 @@ font-size: larger;
 .history3
 {
     background-color: rgb(199, 203, 201);
+    background-color:rgb(237, 237, 236);
             width: 950px;
             height: 400px;
             margin-left: 50px;
@@ -161,6 +163,7 @@ font-size: larger;
 .history5
 {
     background-color: rgb(199, 203, 201);
+    background-color:rgb(237, 237, 236);
             width: 950px;
             height: 400px;
             margin-left: 50px;
@@ -422,6 +425,7 @@ text-align: center;
   position: absolute;
   top: 320%;
   left: 0px;
+  scroll-snap-type: x mandatory;
 }
 .rehead
 {
@@ -444,6 +448,7 @@ text-align: center;
   left: 3%;
   background-color: #ffffff;
   border-radius: 30px;
+  scroll-snap-align: none;
 }
 .profile
 {
@@ -495,6 +500,7 @@ text-align: center;
   left: 27%;
   background-color: #ffffff;
   border-radius: 30px;
+  scroll-snap-align: start;
 }
 .person3
 {
@@ -505,6 +511,7 @@ text-align: center;
   left: 51%;
   background-color: #ffffff;
   border-radius: 30px;
+  scroll-snap-align: start;
 }
 .person4
 {
@@ -515,7 +522,9 @@ text-align: center;
   left: 75%;
   background-color: #ffffff;
   border-radius: 30px;
+  scroll-snap-align: start;
 }
+
 .backimage
 {
   z-index: -1;
@@ -525,7 +534,7 @@ text-align: center;
 .logo
 {
 top: 0px;
-left: 0px;
+left: 20px;
 position: absolute;
 background-color: transparent;
 
@@ -534,7 +543,7 @@ background-color: transparent;
 
 {
   font-weight: 900;
-  color: #ffb006;
+  color: #ffffff;
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
@@ -542,10 +551,15 @@ background-color: transparent;
  font-family: Arial, Helvetica, sans-serif;
 }
 
+
     </style>
 </head>
 <body>
-<div class="logo"><b>Wanderlust Way</b></div>
+<div class="logo">
+  <b>Wanderlust Way</b></div>
+  <div class="lsvg">  <svg xmlns="http://www.w3.org/2000/svg" viewBox="60 150 900 400"><path fill="blue" fill-opacity="1" d="M0,224L40,224C80,224,160,224,240,213.3C320,203,400,181,480,170.7C560,160,640,160,720,160C800,160,880,160,960,149.3C1040,139,1120,117,1200,117.3C1280,117,1360,139,1400,149.3L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+  </div>
+
     <div class="head">
         <h3>TOP PLACES IN KARNATAKA</h3>
 
@@ -560,20 +574,41 @@ background-color: transparent;
 <div class="image"> <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\download.jpeg" width="380px" height="400px"></div>
     </div>
     <div class="history1">
-        <div class="content"> <div class="place"><h3><b>MYSORE PALACE</b></h3></div> </div>
+        <div class="content"> <div class="place"><h3><b>MYSORE PALACE</b></h3></div>
+        <div class="info"><p>Mysore Palace, also known as Amba Vilas Palace and Mysore Aramane, is one of the most magnificent and largest palaces in India. Situated in the southern state of Karnataka, it used to be the official residence of the Wodeyar Dynasty, the rulers of Mysore from 1399 to 1950. The grand palace stands tall in the heart of Mysore city and attracts visitors worldwide. </p>
+          <b>LOCATION:</b><p> MYSORE PALACE is located in Sayyaji Rao Rd, Agrahara, Chamrajpura, Mysuru, Karnataka 570001</p></BR></div>
+             <div class="moreinfo"><a href="travel.html"><button  style="border-radius: 20px;">KNOW MORE</button></a></div> 
+       </div>
         
         <div class="image"> <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\mysore.jpeg" width="380px" height="400px"></div>
             </div>
             <div class="history2">
-                <div class="content"> <div class="place"><h3><b>BELOOR-HALEBIDU</b></h3></div> </div>
+                <div class="content"> <div class="place"><h3><b>BELOOR-HALEBIDU</b></h3></div>
+                <div class="info"><p> Both belonging to the Hoysala dynasty, boast architectural wonders that have stood the test of time. Immerse yourself in the intricate carvings and unravel the fascinating stories behind these magnificent structures. Whether you are a history buff, an architecture enthusiast Belur and Halebidu promise a captivating journey through time.</p>
+                  <b>LOCATION:</b><p>
+                    The two towns, Belur and Halebidu, are located in Hassan district.both located within 15 km</p></BR></div>
+                     <div class="moreinfo"><a href="travel.html"><button  style="border-radius: 20px;">KNOW MORE</button></a></div> 
+              </div>
                 <div class="image"> <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\belur.jpeg" width="380px" height="400px"></div>
                     </div>
                     <div class="history3">
-                        <div class="content"> <div class="place"><h3><b>SHRAVANA-BELAGOLA</h3></div> </div>
+                        <div class="content"> <div class="place"><h3><b>SHRAVANA-BELAGOLA</h3></div> 
+        
+                          <div class="info"><p>Shravanabelagola contains notable examples of Mauryan architecture (from the Mauryan empire [c. 321–185 BCE]).It uis thr world's tallest monolithic  statue of lord Gomesteshwara In addition to notable architecture, the town has a giant stone figure, believed to be 1,000 years old, of Bahubali (Gommateshvara), the Jain saint..</p>
+                            <b>LOCATION:</b><p>
+                              It is situated in a hilly upland region, about 55 miles (90 km) north of Mysuru</p></BR>
+                            </div>
+                               <div class="moreinfo"><a href="travel.html"><button  style="border-radius: 20px;">KNOW MORE</button></a></div> </div>
                         <div class="image"> <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\shravanabelagola.jpeg" width="380px" height="400px"></div>
                             </div>
                             <div class="history5">
-                                <div class="content"> <div class="place"><h3><b>RANGANATHASWAMY-TEMPLE</h3></div> </div>
+                                <div class="content"> <div class="place"><h3><b>RANGANATHASWAMY-TEMPLE</h3></div> 
+                                  <div class="info"><p>  Ranganathaswamy Temple is one of the country’s most revered Temples. It is dedicated to Ranganatha, an incarnation of Lord Vishnu. It is considered to be one of the Pancharanga Kshetram (five most important shrines devoted to Lord Vishnu) in South India. The presiding deity is known as Adi Ranga as it is the first Temple from upstream.</p>
+                                    <b>LOCATION:</b><p>
+                                      It is located in Srirangapatna ,  MYSORE Karnataka.</p></BR></div>
+                                       <div class="moreinfo"><a href="travel.html"><button  style="border-radius: 20px;">KNOW MORE</button></a></div> 
+                                
+                                </div>
                                 <div class="image"> <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\ranganathaswamy.jpeg" width="380px" height="400px"></div>
                             </div>
 
@@ -715,6 +750,7 @@ background-color: transparent;
     <div class="opinion"> <p>A very amazing trip with wanderlust.Really i give  5 star  for theire service.I recommend wonderlust for everyone for their amazing trip</p></div>
   </div>
 
+  
 </div>
 <!-- <div class="backimage">
   <img src="C:\Users\kmrag\OneDrive\Desktop\travel-planner\mysore.jpeg" alt="" width="100%" height="1200%">
