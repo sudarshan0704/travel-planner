@@ -256,9 +256,23 @@ nav ul li a{
     
     
 }
+#imgchange{
+    background-image: url("Baga Beach Goa.jpeg");
+    width: 100%;
+    height: 600px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+    
+    
+}
+
     </style>
 </head>
-<body>
+<body >
     <header>
         <div class="navbar">
             <nav>
@@ -295,20 +309,49 @@ nav ul li a{
         <div class="pack1"> <div class="button"><a href="booking.html"><button>BOOK NOW</button></a></div></div>
         <div class="pack1"> <div class="button"><a href="booking.html"><button>BOOK NOW</button></a></div></div>
     </div>
-    <div class="activity">
-<center style="padding-top: 30px; background-color: transparent; font-family: 'Times New Roman', Times, serif;font-size: 50px; font-weight: bold;">PACAKGES INCLUDES</center>
-<div class="travel"></div>
-<div class="residency"></div>
-<div class="food"></div>
-<div class="party"></div>
-<div class="guide"></div>
-<div class="enjoy">ENJOY</div>
-    </div>
+ 
     <br>
     <br>
     <br><br><br>
-    <div>
-xbbxJnxK<m
+    <div id="imgchange"  >
+        <!-- <img src="greenary.jpg" alt="path incorrect" width="100%" height="300" id="changeimg" > -->
     </div>
+    <br>
+    <br>
+    <div class="activity">
+        <center style="padding-top: 30px; background-color: transparent; font-family: 'Times New Roman', Times, serif;font-size: 50px; font-weight: bold;">PACAKGES INCLUDES</center>
+        <div class="travel"></div>
+        <div class="residency"></div>
+        <div class="food"></div>
+        <div class="party"></div>
+        <div class="guide"></div>
+        <div class="enjoy">ENJOY</div>
+            </div>
+    <script>
+        var imges=new Array('Baga Beach Goa.jpeg','gokarna.jpg','jogfalls.jpg','nandihills.jpg','palace.jpg');
+         var i=1;
+         var imgcomponent=document.getElementById("imgchange");
+        // function change()
+    
+        // {
+        //     alert("code entered")
+        //     alert(imges[0])
+        //     imgcomponent.style.backgroundimage = `url(${imges[i]})`;
+        //     i++;
+        //     if(i==2)
+        //     i=0
+        
+        // }
+            setInterval(()=>{ 
+           
+            imgcomponent.style.backgroundImage = `url(${imges[i]})`;
+            i++;
+            if(i==5)
+              i=0
+
+            },3000)
+    
+
+    </script>
 </body>
 </html>
