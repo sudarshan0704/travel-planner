@@ -120,7 +120,7 @@ button:hover{
   position: absolute;
 }
 .card3{
-    background-image: url("Jog falls.jpg");
+    background-image: url("Jog\ falls.jpg");
     position: absolute;
     margin-top: 30px;
 }
@@ -182,5 +182,60 @@ h1{
     margin-top: 10px;
     border-radius: 10px;
  }
-
-
+#abot{
+    background-image: linear-gradient(rgb(255, 0, 0),black);
+    display:flex;
+    margin-top: 100px;
+    height: 250px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.detail{
+    height:100px;
+    width:300px;
+    margin-left: 50px;
+    margin-top:30px;
+}
+.heading1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:white;
+}
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:white;
+}
+.whatsappbot{
+    margin-left:40px;
+    margin-top:30px;
+    height:100px;
+    width:200px
+}
+.whatscont{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.followon{
+    color: white;
+    margin-left:170px ;
+    margin-top: 30px;
+}
+.melakke{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.pakka{
+    margin-top:-18px;
+    margin-left: 150px;
+}
+.pakka1{
+    margin-top:-18px;
+    margin-left: 300px;
+}
