@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cont{
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("travel-concept-with-landmarks.jpg");
+    background-position: center ;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12px;
+    display: flex;
+    align-items: center;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 70px;
+    position: relative;
+    text-transform: uppercase;
+}
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+ }
+ nav ul li:hover::after{
+    width: 100%;
+ }
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style:oblique;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    height: 88%;
+}
+.col{
+    flex-basis: 50%;
+    margin-top: 50px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+}
+button{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 12px 0;
+    border:0;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: 200px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    position: absolute;
+    transition: linear 0.3s ;
+}
+button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff ;
+    
+}
+.card{
+    width: 300px;
+    height: 280px;
+    /* display: inline-block; */
+    border-radius: 15px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    position: relative;
+    margin: 25px; 
+    margin-left: 40px;
+    
+}
+
+.card1{
+    background-image: url("palace.jpg");
+    margin-top: -280px;
+    position: absolute;
+    
+}
+.card2{
+    background-image: url("Hampi.jpeg");
+  margin-left: 380px;
+  margin-top: -260px;
+  position: absolute;
+}
+.card3{
+    background-image: url("Jog\ falls.jpg");
+    position: absolute;
+    margin-top: 30px;
+}
+.card4{
+    background-image: url("Baga\ Beach\ Goa.jpeg");
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 60px;
+   
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+h5{
+    color: #ffffff;
+    text-shadow: 0 0 50px #494949;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 90px;
+  font-style:oblique;
+  color: #fff;
+}
+.q1{
+    font-family: "Meie Script", cursive;
+    font-weight: 450;
+    font-style:italic;
+    font-size: 20px;
+    margin-left: 115px;
+ }
+
+ .container2{
+    width: 100%;
+    height: 600px;
+    background-color:  rgb(210, 255, 251);
+    position: relative;
+ }
+ .image{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    /* background-color: yellow; */
+    /* margin-left: 280px; */
+    position: absolute;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(airplane-window-aesthetic-sunset-sky-2s54o5hux6tconpp.webp);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+#abot{
+    background-image: linear-gradient(rgb(255, 0, 0),black);
+    display:flex;
+    margin-top: 100px;
+    height: 250px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.detail{
+    height:100px;
+    width:300px;
+    margin-left: 50px;
+    margin-top:30px;
+}
+.heading1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:white;
+}
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:white;
+}
+.whatsappbot{
+    margin-left:40px;
+    margin-top:30px;
+    height:100px;
+    width:200px
+}
+.whatscont{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size:20px;
+    margin-bottom: 15px;
+}
+.followon{
+    color: white;
+    margin-left:170px ;
+    margin-top: 30px;
+}
+.melakke{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.pakka{
+    margin-top:-18px;
+    margin-left: 150px;
+}
+.pakka1{
+    margin-top:-18px;
+    margin-left: 300px;
+}
